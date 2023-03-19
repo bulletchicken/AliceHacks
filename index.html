@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id = "loading">Loading, please wait up to 5 seconds</div>
+
+    <div id="top">
+        <nav>
+            <div id="music">
+                <li><button class="playpause"></button></li>
+            </div>
+            <li class = "divide"></li>
+            <li><a id = "smo" href="#title1">home</a></li>
+            <li class = "divide"></li>
+            <li><a id = "smo" href="#anchor">about</a></li>
+            <li class = "divide"></li>
+            <li>
+                <div class="dropdown-container" >
+                    <a id = "smo" class="dropdown-button">contact</a>
+                    <div class="dropdown-content">
+                        <a class="dropdown-link" href="https://discord.gg/TG9AnzhU" target="_blank">Discord</a>
+                        <p class="dropdown-link" href="#">Instagram</p>
+                    </div>
+                </div>
+            </li>
+            <li style = "margin-right: 6vw;"class = "divide"></li>
+        </nav>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+
+    <div class="smooth-wrapper">
+        <div class="smooth-content">
+            <div class="scroll-down-arrow"></div>
+            <div class="text">
+                <div id="title1">
+                    <div id="leftalign">
+                        <div style="margin-left: 0.1vw">Alice</div>
+                        <div style="margin-left: -0.5vw">Hacks</div>
+
+                        <div id="subtitle">
+                            <div>A hackathon in wonderland</div>
+                        </div>
+
+                        <script async src="https://tally.so/widgets/embed.js"></script>
+                        <button class="btn btn-shadow-drop btn-shadow-drop--black" data-tally-open="3XLROV"
+                            data-tally-layout="modal" data-tally-width="700" data-tally-emoji-text="👋"
+                            data-tally-emoji-animation="wave">pre-register</button>
+                    </div>
+                </div>
+                <div id = "anchor"></div>
+                <div id="title2">
+                    <h1 class="header">About</h1>
+                    <div id="divider"></div>
+                    <h1 id="heading">Who are we?</h1>
+                    <h3 id="description">We are a team of students based in Ontario, Canada who absolutely love STEM
+                        and want to make it easy for people to dive right into it! We are glad to take in other
+                        international students into our team and hope to expand Alice Hacks beyond just a hackathon!
+                    </h3>
+
+                    <h1 id="heading">What is Alice Hacks?</h1>
+                    <h3 id="description">Alice Hacks is an international hackathon that draws inspiration from the
+                        classic tale of Alice in Wonderland. The event places a strong emphasis on the power of
+                        imagination, which is at the heart of the story. Participants are encouraged to let their
+                        creativity run wild and explore new ideas and approaches to problem-solving.</h3>
+
+                    <h1 id="heading">Why are we different?</h1>
+                    <h3 id="description">We will primarily focus on helping beginners get their first hackathon
+                        started and even have exlusives prizes for them! We will also have a larger weighting on
+                        creativity, imagination, as well as goofiness! Do not worry if you are a hackathon veteran
+                        either because technicality will still a major factor!</h3>
+
+                    <h1 id="heading">When is it?</h1>
+                    <h3 id="description">Alice Hacks is expected to have its first iteration summer of 2023! More
+                        pre-registers will help make this date come sooner</h3>
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.268/build/spline-viewer.js"></script>
+    <spline-viewer id ="model" hint loading-anim url="https://prod.spline.design/lpH-1b-4OaQ9ULLP/scene.splinecode"></spline-viewer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
