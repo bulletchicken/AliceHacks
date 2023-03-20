@@ -42,8 +42,8 @@ html {
   justify-content: center;
   min-height: 100vh;
   min-width: 100%;
-  font-size: 7vw;
-  margin-bottom: 500%;
+  font-size: 150px;
+  margin-bottom: 300%;
   color: rgb(44, 44, 44);
   font-family: 'Montserrat', sans-serif;
   /*font-family: 'Prata', serif;*/
@@ -54,10 +54,9 @@ html {
 }
 
 #subtitle {
-  font-size: 1vw;
+  font-size: 18px;
   color: rgb(44, 44, 44);
-  letter-spacing: 3px;
-
+  letter-spacing: 5px;
 }
 
 
@@ -90,7 +89,7 @@ html {
 .btn-shadow-drop {
   background: rgb(255, 255, 255);
   padding: 20px;
-  font-size: 10%;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 5px;
   transition: all 0.1s ease-in-out 0s;
@@ -200,8 +199,8 @@ nav {
   overflow: show;
   background-color: #fff4f4;
 
-  max-height: 50px;
-  min-height: 50px;
+  max-height: 60px;
+  min-height: 60px;
   font-family: 'Montserrat', sans-serif;
 
   display: flex;
@@ -224,8 +223,8 @@ li {
   color: rgb(32, 32, 32);
   text-align: center;
   padding: 14px;
-  padding-bottom: 12px;
-  min-height: 24px;
+
+  min-height: 32px;
   text-decoration: none;
   padding-right: 3vw;
   padding-left: 3vw;
@@ -235,9 +234,10 @@ li {
 
 #smo:hover {
   background-color: #f7c9c9;
+  transition: background-color 300ms ease-in-out;
 }
 .divide{
-  margin-top: 10px;
+  margin-top: 13px;
   height:35px;
   border: 1px solid #a7a7a7;
 }
@@ -252,7 +252,7 @@ li {
   margin-bottom: 3vh;
 }
 
-.playpause {
+#playpause {
 
   margin-top: 1vh;
   border: 0;
@@ -343,4 +343,47 @@ li {
   display:block;
   position:relative;
   margin-bottom: 400px;
+}
+
+#alice{
+  margin-left: 0.1vw;
+}
+#hacks{
+  margin-left: -0.5vw;
+}
+
+@media only screen and (max-width: 576px) {
+  nav{
+    display:none;
+  }
+  .text{
+    min-width: 100%;
+    margin:0;
+  }
+  #subtitle{
+    letter-spacing: 0;
+  }
+  #leftalign{
+    margin-left: 5vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .btn{
+    margin-left:5vw;
+  }
+  #alice{
+    margin:0;
+  }
+  #hacks{
+    margin:0;
+  }
+  #title1{
+    left: 50%;
+    font-size: 80px;
+    margin:0;
+  }
+  #title2{
+    margin:20px;
+  }
 }

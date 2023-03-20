@@ -11,12 +11,12 @@
 
 <body>
 
-    <div id = "loading">Loading, please wait up to 5 seconds</div>
+    <div style = "text-align: center;"id = "loading">Loading, please wait up to 5 seconds</div>
 
     <div id="top">
         <nav>
             <div id="music">
-                <li><button class="playpause"></button></li>
+                <li><button id="playpause"></button></li>
             </div>
             <li class = "divide"></li>
             <li><a id = "smo" href="#title1">home</a></li>
@@ -46,8 +46,8 @@
             <div class="text">
                 <div id="title1">
                     <div id="leftalign">
-                        <div style="margin-left: 0.1vw">Alice</div>
-                        <div style="margin-left: -0.5vw">Hacks</div>
+                        <div id = "alice">Alice</div>
+                        <div id = "hacks">Hacks</div>
 
                         <div id="subtitle">
                             <div>A hackathon in wonderland</div>
@@ -98,12 +98,7 @@
 
 
     
-    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.268/build/spline-viewer.js"></script>
-    <spline-viewer id ="model" hint loading-anim url="https://prod.spline.design/lpH-1b-4OaQ9ULLP/scene.splinecode"></spline-viewer>
-    
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
 </body>
 
