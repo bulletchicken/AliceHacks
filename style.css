@@ -386,4 +386,7 @@ li {
   #title2{
     margin:20px;
   }
+  .progress-container{
+    z-index: 999;
+  }
 }
