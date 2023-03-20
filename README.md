@@ -1,1 +1,1 @@
-# AliceHacks
+# Alice
