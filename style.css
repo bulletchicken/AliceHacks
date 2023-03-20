@@ -321,14 +321,16 @@ li {
 .dropdown-button {
   z-index: 3;
   border: none;
+  overflow:hidden;
 }
 
 .dropdown-content {
   z-index: 2;
   text-align: center;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(253, 227, 227);
   padding-top:15px;
+
 }
 
 .dropdown-link {
