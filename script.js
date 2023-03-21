@@ -10,7 +10,7 @@ window.onload = function () {
     return check;
   };
 
-  if (true) {
+  if ("ontouchstart" in document.documentElement) {
     var playpause = document.getElementById("playpause");
     // Code to run if the user is on a mobile device
     playpause.style.display = "none";
@@ -45,7 +45,7 @@ window.onload = function () {
 
     setTimeout(function () {
       div.style.display = "none";
-    }, 0);
+    }, 10);
   }
 
 
