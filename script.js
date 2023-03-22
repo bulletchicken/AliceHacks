@@ -45,7 +45,7 @@ window.onload = function () {
 
     setTimeout(function () {
       div.style.display = "none";
-    }, 10);
+    }, 300);
   }
 
 
